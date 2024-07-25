@@ -16,89 +16,120 @@
 </head>
 
 <body>
-    <header class="header container">
-        <img src="img/logo-explore.png" alt="logo" class="logo">
-        <nav class="header-nav">
-            <ul class="header-list">
-                <li><a href="#" class="header-item">Destinations</a></li>
-                <li><a href="#" class="header-item">Experiences</a></li>
-                <li><a href="#" class="header-item">About</a></li>
-                <li><a href="#" class="header-item">Gallery</a></li>
-            </ul>
+    <div class="bkg-box">
+       <a name="top"></a>
+        <header class="header container">
+            <img src="img/desktop/logo.png" alt="logo" class="logo">
+            <nav class="header-nav">
+                <ul class="header-list">
+                    <li><a href="#" class="header-item">Destinations</a></li>
+                    <li><a href="#" class="header-item">Experiences</a></li>
+                    <li><a href="#" class="header-item">About</a></li>
+                    <li><a href="#" class="header-item">Gallery</a></li>
+                </ul>
+            </nav>
             <ul class="header-list2">
                 <li class="header-item2">
-                    <svg>
-                        <use></use>
+                    <svg class="header-svg">
+                        <use href="img/symbol-defs.svg#search"></use>
                     </svg>
                 </li>
                 <li class="header-item2">
-                    <svg>
-                        <use></use>
+                    <svg class="header-svg">
+                        <use href="img/symbol-defs.svg#menu"></use>
                     </svg>
                 </li>
             </ul>
-        </nav>
-    </header>
-    <main>
-        <section class="hero container">
-            <h1 class="hero-title">EXPLORE INDONESIA</h1>
-            <button class="main-btn">Start traveling</button>
-            <ul class="social-links-list">
-                <li><a href="fecebook.com" class="social-links-item">Fb</a></li>
-                <li><a href="instagram.com" class="social-links-item">In</a></li>
-                <li><a href="twitter.com" class="social-links-item"></a>Tw</li>
-            </ul>
-            <ul class="hero-card-list">
-                <li class="hero-card-item">
-                    <h4 class="hero-card-number">01</h4>
-                    <h3 class="hero-card-title">Title here</h3>
-                    <p class="hero-card-p">Lorem ipsum dolor sit amet et amet ist ame.</p>
-                </li>
-                <li class="hero-card-item">
-                    <h4 class="hero-card-number">02</h4>
-                    <h3 class="hero-card-title">Title here</h3>
-                    <p class="hero-card-p">Lorem ipsum dolor sit amet et amet ist ame.</p>
-                </li>
-                <li class="hero-card-item">
-                    <h4 class="hero-card-number">03</h4>
-                    <h3 class="hero-card-title">Title here</h3>
-                    <p class="hero-card-p">Lorem ipsum dolor sit amet et amet ist ame.</p>
-                </li>
-            </ul>
+        </header>
+        <main>
+            <section class="hero container">
+                <h1 class="hero-title">EXPLORE INDONESIA</h1>
+                <div class="hero-btn-box"><button class="main-btn">Start traveling</button></div>
+                <ul class="social-links-list">
+                    <li><a href="fecebook.com" class="social-links-item">Fb</a></li>
+                    <li><a href="instagram.com" class="social-links-item">In</a></li>
+                    <li><a href="twitter.com" class="social-links-item"></a>Tw</li>
+                </ul>
+                <ul class="hero-card-list">
+                    <li class="hero-card-item">
+                        <h4 class="hero-card-number">01</h4>
+                        <h3 class="hero-card-title">Title here</h3>
+                        <p class="hero-card-p">Lorem ipsum dolor sit amet et amet ist ame.</p>
+                    </li>
+                    <li class="hero-card-item">
+                        <h4 class="hero-card-number">02</h4>
+                        <h3 class="hero-card-title">Title here</h3>
+                        <p class="hero-card-p">Lorem ipsum dolor sit amet et amet ist ame.</p>
+                    </li>
+                    <li class="hero-card-item">
+                        <h4 class="hero-card-number">03</h4>
+                        <h3 class="hero-card-title">Title here</h3>
+                        <p class="hero-card-p">Lorem ipsum dolor sit amet et amet ist ame.</p>
+                    </li>
+                </ul>
+                <div class="hero-video-box"><img class="hero-video" src="img/mobile/hero-video-mobile.jpg" alt="video">
+                </div>
+            </section>
+    </div>
+    <section class="relax container">
+        <ul class="relax-list">
+            <li class="relax-item1">
+                <picture class="relax-pict">
+                    <source srcset=" 1x,  2x" media="(min-width: 360px)" />
+                    <source srcset="./img/desktop/relax1@1x.jpg 1x, ./img/desktop/relax1@2x.jpg 2x"
+                        media="(min-width: 768px)" />
+                    <img src="img/desktop/relax1@1x.jpg" alt="path" class="relax-img">
+                </picture>
+                <h3 class="relax-titles">The walkways of Indonesia spellbind</h3>
+                <p class="relax-p">Lorem ipsum dolor sit amet, consectetur adip iscing elit. Fusce commodo magna et
+                    libero mollis rhoncus. </p>
+                <div class="btn-box"><button class="main-btn">Learn More</button></div>
+            </li>
+            <li class="relax-item2">
+                <picture class="relax-pict">
+                    <source srcset=" 1x,  2x" media="(min-width: 360px)" />
+                    <source srcset="./img/desktop/relax2@1x.jpg 1x, ./img/desktop/relax2@2x.jpg 2x"
+                        media="(min-width: 768px)" />
+                    <img src="img/desktop/relax2@1x.jpg" alt="path" class="relax-img">
+                </picture>
+                <h3 class="relax-titles">Perfect beaches exude relaxation and fun</h3>
+                <p class="relax-p">Lorem ipsum dolor sit amet, consectetur adip iscing elit. Fusce commodo magna et
+                    libero mollis rhoncus. </p>
+                <div class="btn-box"><button class="main-btn">Learn More</button></div>
+            </li>
+        </ul>
+    </section>
+    <div class="secrets-bkg">
+        <section class="secrets container">
+            <h2 class="secrets-title">Explore Our Secrets</h2>
+            <div class="slide-box">
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade">
+                        <img src="img/desktop/relax2@1x.jpg">
+                    </div>
+
+                    <div class="mySlides fade">
+                        <img src="img/desktop/relax1@1x.jpg">
+                    </div>
+
+                    <div class="mySlides fade">
+                        <img src="img/desktop/secrets3@1x.jpg" height="200">
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <a class="next" onclick="plusSlides(1)">❯</a>
+
+                </div>
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+            </div>
         </section>
-        <section class="relax container">
-            <ul class="relax-list">
-                <li class="relax-item">
-                    <img src="" alt="path" class="relax-img">
-                    <picture>
-                        <source
-                            srcset="./img/mobile/webstudio/man2mobile@1x.jpg 1x, ./img/mobile/webstudio/man2@2x.jpg 2x"
-                            media="(min-width: 360px)" />
-                        <source
-                            srcset="./img/tablet/webstudio/man2tablet@1x.jpg 1x, ./img/tablet/webstudio/man2tablet@2x.jpg 2x"
-                            media="(min-width: 768px)" />
-                        <source
-                            srcset="./img/desktop/webstudio/man2desktop@1x.jpg 1x, ./img/desktop/webstudio/man2desktop@2x.jpg 2x"
-                            media="(min-width: 1200px)" />
-                        <img class="ourteam-img" src="img/desktop/man3.jpg" alt="man" width="450" height="460">
-                    </picture>
-                    <h3 class="relax-titles">The walkways of Indonesia spellbind</h3>
-                    <p class="relax-p">Lorem ipsum dolor sit amet, consectetur adip iscing elit. Fusce commodo magna et
-                        libero mollis rhoncus. </p>
-                    <button class="main-btn">Learn More</button>
-                </li>
-                <li class="relax-item">
-                    <img src="" alt="beach" class="relax-img">
-                    <h3 class="relax-titles">Perfect beaches exude relaxation and fun</h3>
-                    <p class="relax-p">Lorem ipsum dolor sit amet, consectetur adip iscing elit. Fusce commodo magna et
-                        libero mollis rhoncus. </p>
-                    <button class="main-btn">Learn More</button>
-                </li>
-            </ul>
-        </section>
-        <section class="secrets container"></section>
         <section class="numbers">
-            <h2 class="numbers title">By The Numbers</h2>
+            <h2 class="numbers-title">By The Numbers</h2>
             <p class="numbers-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo magna et
                 libero.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             <ul class="numbers-list">
@@ -119,71 +150,98 @@
                 </li>
             </ul>
         </section>
-        <section class="original container">
-            <h2 class="original-title">Our hills and valleys are like nothing you’ve seen.</h2>
-            <p class="original-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet magna commodo,
-                tempus dolor sit amet, laoreet elit. Donec mauris tortor.</p>
-            <button class="main-btn">Learn More</button>
-        </section>
-        <section class="life">
-            <h2 class="life-title">Live a life like you wouldn’t imagine, experience a life you wouldn’t expect.</h2>
-            <video src="" class="life-video"></video>
-            <ul class="life-card-list">
-                <li class="life-card-item">
-                    <video src="" class="life-card-video"></video>
-                    <h4 class="life-card-title">In The Country</h4>
-                    <p class="life-card-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus
-                        mauris in lectus tempus.</p>
-                </li>
-                <li class="life-card-item">
-                    <video src="" class="life-card-video"></video>
-                    <h4 class="life-card-title">In The City</h4>
-                    <p class="life-card-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus
-                        mauris in.</p>
-                </li>
-            </ul>
-        </section>
-        <section class="gallery container">
-            <h2 class="gallery-title">Photo Galery</h2>
-            <p class="gallery-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in
-                lectus tempus, eget tincidunt.</p>
-            <ul class="gallery-list">
-                <li class="gallery-item"><img src="" alt="gallery" class="gallery-img"></li>
-                <li class="gallery-item"><img src="" alt="gallery" class="gallery-img"></li>
-                <li class="gallery-item"><img src="" alt="gallery" class="gallery-img"></li>
-                <li class="gallery-item"><img src="" alt="gallery" class="gallery-img"></li>
-                <li class="gallery-item"><img src="" alt="gallery" class="gallery-img"></li>
-                <li class="gallery-item"><img src="" alt="gallery" class="gallery-img"></li>
-            </ul>
-        </section>
-        <section class="get container">
-            <h2 class="get-title">Getting there</h2>
-            <ul class="get-list">
-                <li class="get-item">
-                    <h4 class="get-item-title">Bookings your flights</h4>
-                    <p class="get-item-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus
-                        mauris in lectus tempus, eget tincidunt lacus varius. Sed euismod orci dictum faucibus
-                        malesuada. Praesent sed eros tincidunt, viverra neque auctor, lobortis enim.</p>
-                </li>
-                <li class="get-item">
-                    <h4 class="get-item-title">Choosing your hotel</h4>
-                    <p class="get-item-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus
-                        mauris in lectus tempus, eget tincidunt lacus varius. Sed euismod orci dictum faucibus
-                        malesuada. Praesent sed eros tincidunt, viverra neque auctor, lobortis enim.</p>
-                </li>
-                <li class="get-item">
-                    <video class="get-video" src=""></video>
-                    <h4 class="get-item-title">Traveling there</h4>
-                    <p class="get-item-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus
-                        mauris in lectus tempus, eget tincidunt.</p>
-                </li>
-                <li class="get-item">
-                    <h4 class="get-item-title">Planning your experiences</h4>
-                    <p class="get-item-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus
-                        mauris in lectus tempus, eget tincidunt lacus varius. </p>
-                </li>
-                <button class="main-btn">Learn Mare</button>
-        </section>
+    </div>
+    <section class="original container">
+        <h2 class="original-title">Our hills and valleys are like nothing you’ve seen.</h2>
+        <p class="original-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet magna commodo,
+            tempus dolor sit amet, laoreet elit. Donec mauris tortor.</p>
+        <div class="original-box"><button class="main-btn">Learn More</button></div>
+    </section>
+    <section class="life container">
+        <h2 class="life-title">Live a life like you wouldn’t imagine, experience a life you wouldn’t expect.</h2>
+        <picture class="life-img">
+            <source srcset="img/mobile/life1@1x.jpg 1x, img/mobile/life1@2x.jpg 2x" media="(min-width: 360px)" />
+            <source srcset=" 1x,  2x" media="(min-width: 768px)" />
+            <img src="img/mobile/life1@1x.jpg" alt="path" class="life-img">
+        </picture>
+        <ul class="life-card-list">
+            <li class="life-card-item">
+                <picture class="life-img">
+                    <source srcset="img/mobile/life2@1x.jpg 1x, img/mobile/life2@2x.jpg 2x"
+                        media="(min-width: 360px)" />
+                    <source srcset=" 1x,  2x" media="(min-width: 768px)" />
+                    <img src="img/mobile/life2@1x.jpg" alt="path" class="life-img">
+                </picture>
+                <h4 class="life-card-title">In The Country</h4>
+                <p class="life-card-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus
+                    mauris in lectus tempus.</p>
+            </li>
+            <li class="life-card-item">
+                <picture class="life-img">
+                    <source srcset="img/mobile/life3@1x.jpg 1x, img/mobile/life3@2x.jpg 2x"
+                        media="(min-width: 360px)" />
+                    <source srcset=" 1x,  2x" media="(min-width: 768px)" />
+                    <img src="img/mobile/life3@1x.jpg" alt="path" class="life-img">
+                </picture>
+                <h4 class="life-card-title">In The City</h4>
+                <p class="life-card-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus
+                    mauris in.</p>
+            </li>
+        </ul>
+    </section>
+    <section class="gallery container">
+        <h2 class="gallery-title">Photo Galery</h2>
+        <p class="gallery-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in
+            lectus tempus, eget tincidunt.</p>
+        <ul class="gallery-list">
+            <li class="gallery-item">
+                <picture>
+                    <source srcset="./img/desktop/gallery1@1x.jpg 1x, ./img/desktop/gallery1@2x.jpg 2x"
+                        media="(min-width: 768px)" />
+                    <img src="./img/desktop/gallery1@1x.jpg" alt="gallery" class="gallery-img">
+                </picture>
+            </li>
+            <li class="gallery-item"><img src="" alt="gallery" class="gallery-img"></li>
+            <li class="gallery-item"><img src="" alt="gallery" class="gallery-img"></li>
+            <li class="gallery-item"><img src="" alt="gallery" class="gallery-img"></li>
+            <li class="gallery-item"><img src="" alt="gallery" class="gallery-img"></li>
+            <li class="gallery-item"><img src="" alt="gallery" class="gallery-img"></li>
+        </ul>
+    </section>
+    <section class="get container">
+        <h2 class="get-title">Getting there</h2>
+        <ul class="get-list">
+            <li class="get-item">
+                <h4 class="get-item-title">Bookings your flights</h4>
+                <p class="get-item-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus
+                    mauris in lectus tempus, eget tincidunt lacus varius. Sed euismod orci dictum faucibus
+                    malesuada. Praesent sed eros tincidunt, viverra neque auctor, lobortis enim.</p>
+            </li>
+            <li class="get-item">
+                <h4 class="get-item-title">Choosing your hotel</h4>
+                <p class="get-item-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus
+                    mauris in lectus tempus, eget tincidunt lacus varius. Sed euismod orci dictum faucibus
+                    malesuada. Praesent sed eros tincidunt, viverra neque auctor, lobortis enim.</p>
+            </li>
+            <li class="get-item">
+                <picture class="get-img">
+                    <source srcset="img/mobile/get@1x.jpg 1x, img/mobile/get@2x.jpg 2x"
+                        media="(min-width: 360px)" />
+                    <source srcset=" 1x,  2x" media="(min-width: 768px)" />
+                    <img src="img/mobile/get@1x.jpg" alt="path" class="get-img">
+                </picture>
+                <h4 class="get-item-title">Traveling there</h4>
+                <p class="get-item-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus
+                    mauris in lectus tempus, eget tincidunt.</p>
+            </li>
+            <li class="get-item">
+                <h4 class="get-item-title">Planning your experiences</h4>
+                <p class="get-item-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus
+                    mauris in lectus tempus, eget tincidunt lacus varius. </p>
+            </li>
+            <div class="get-box"><button class="main-btn">Learn More</button></div>
+            <div class="btt-box"><a href="#top"><button class="btt">Back to top</button></a></div>
+    </section>
     </main>
     <footer class="footer container">
         <svg>
@@ -219,6 +277,34 @@
             </ul>
         </ul>
     </footer>
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
 </body>
 
 </html>

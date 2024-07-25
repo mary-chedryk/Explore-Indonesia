@@ -1,0 +1,36 @@
+.bkg-box {
+    background-image: url(../img/desktop/hero-bkg-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .header {
+        padding-top: 48px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header-list {
+        display: none;
+    }
+
+    .logo {
+        height: 60px;
+    }
+
+    .header-list2 {
+        display: flex;
+    }
+
+    .header-svg {
+        height: 60px;
+        width: 24px;
+        fill: white;
+        margin-left: 30px;
+    }
+
+    @media screen and (min-width: 480px) {}
+
+    @media screen and (min-width: 768px) {}
+
+    @media screen and (min-width: 1200px) {}
+}
