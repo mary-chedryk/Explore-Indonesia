@@ -68,6 +68,10 @@ body {
   fill: white;
   margin-left: 30px;
 }
+.footer {
+  background: #010A20;
+  color: white;
+}
 .gallery {
   display: none;
 }
