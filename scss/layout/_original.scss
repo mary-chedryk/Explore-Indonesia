@@ -33,7 +33,17 @@
 
     @media screen and (min-width: 480px) {}
 
-    @media screen and (min-width: 768px) {}
+    @media screen and (min-width: 768px) {
+        background-image: url(../img/desktop/original-bkg.jpg);
+    }
 
-    @media screen and (min-width: 1200px) {}
+    @media screen and (min-width: 1200px) {
+        .original-title {
+            padding: 0 400px;
+            padding-top: 250px;
+        }
+        .original-p {
+            padding: 36px 500px;
+        }
+    }
 }

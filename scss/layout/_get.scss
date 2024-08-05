@@ -48,9 +48,31 @@
         margin-bottom: 20px;
     }
 
+    .get-n-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .get-number {
+        background-color: #DD2242;
+        display: inline;
+        border-radius: 50%;
+        padding: 10px 24px;
+        color: #FFF;
+        font-size: 26.409px;
+        font-weight: 500;
+        line-height: 38.146px;
+        margin-bottom: 20px;
+    }
+
     @media screen and (min-width: 480px) {}
 
-    @media screen and (min-width: 768px) {}
+    @media screen and (min-width: 768px) {
+        .get-title {
+            padding-top: 115px;
+        }
+    }
 
     @media screen and (min-width: 1200px) {}
 }

@@ -70,7 +70,47 @@
 
     @media screen and (min-width: 480px) {}
 
-    @media screen and (min-width: 768px) {}
+    @media screen and (min-width: 768px) {
+        .hero-title {
+            padding-top: 50px;
+            padding-left: 30px;
+            width: 400px;
+        }
 
-    @media screen and (min-width: 1200px) {}
+        .hero-btn-box {
+            align-items: start;
+            justify-content: start;
+        }
+
+        .main-btn {
+            padding: 20px 40px;
+            margin-left: 50px;
+        }
+
+        .hero-card-list {
+            display: flex;
+        }
+
+        .hero-video {
+            display: none;
+        }
+    }
+
+    @media screen and (min-width: 1200px) {
+        .hero-title {
+            font-size: 120px;
+            font-weight: 900;
+            line-height: 130px;
+        }
+
+        .main-btn {
+            padding: 20px 60px;
+        }
+        .hero-card-list {
+            padding-left: 277px;
+        }
+        .hero-video {
+            display: block;
+        }
+    }
 }

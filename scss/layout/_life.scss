@@ -36,7 +36,37 @@
 
     @media screen and (min-width: 480px) {}
 
-    @media screen and (min-width: 768px) {}
+    @media screen and (min-width: 768px) {
+        background-image: url(../img/desktop/life-bkg-d.jpg);
 
-    @media screen and (min-width: 1200px) {}
+        .life-img-box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .life-img {
+            height: 500px;
+        }
+
+        .life-card-item {
+            display: flex;
+            padding-bottom: 50px;
+        }
+
+        .life-card-title {
+            text-align: left;
+            padding-left: 41px;
+        }
+        .life-card-p {
+            text-align: left;
+            padding-left: 41px;
+        }
+    }
+
+    @media screen and (min-width: 1200px) {
+        .life-card-list {
+            display: flex;
+        }
+    }
 }

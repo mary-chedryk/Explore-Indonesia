@@ -1,5 +1,5 @@
 .relax {
-    background: linear-gradient(180deg, #010A20 0%, rgba(1, 10, 32, 0.00) 100%), url(../img/desktop/relax-bkg1.jpg);
+    background: #020C21;
     padding-top: 40px;
 
     .relax-titles {
@@ -17,11 +17,11 @@
         line-height: 24px;
         letter-spacing: 0.5px;
     }
-    
+
     .btn-box {
-     display: flex;
-     justify-content: center;
-     align-items: center;   
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .main-btn {
@@ -32,7 +32,45 @@
 
     @media screen and (min-width: 480px) {}
 
-    @media screen and (min-width: 768px) {}
+    @media screen and (min-width: 768px) {
+        display: none;
+    }
 
-    @media screen and (min-width: 1200px) {}
+    @media screen and (min-width: 1200px) {
+        display: block;
+        padding-top: 160px;
+
+        .relax-it {
+            display: flex;
+        }
+
+        .relax-titles {
+            width: 480px;
+        }
+
+        .relax-p {
+            width: 400px;
+        }
+
+        .rel-box {
+            margin-left: 130px;
+        }
+
+        .relax-item2 {
+            display: none;
+        }
+
+        .rel-b {
+            margin-right: 130px;
+        }
+
+        .rel-i3 {
+            margin-top: 200px;
+        }
+        .relax-pict3 {
+            height: 460px;
+            margin-bottom: 300px;
+        }
+    }
+
 }

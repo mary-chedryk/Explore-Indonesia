@@ -1,9 +1,64 @@
 .footer {
     background: #010A20;
     color: white;
-    
 
-    @media screen and (min-width: 480px) {}
+    .logo-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 155px;
+    }
+
+    .footer-list {
+        text-align: center;
+    }
+
+    .footer-item {
+        padding-top: 36px;
+    }
+
+    .footer-social-likns-list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 50px;
+        padding-bottom: 155px;
+    }
+
+    .footer-social-links-item {
+        fill: white;
+    }
+
+    .svg {
+        width: 30px;
+        height: 30px;
+    }
+
+    @media screen and (min-width: 480px) {
+        .footer-b {
+            display: flex;
+        }
+
+        .logo-box {
+            display: inline;
+            padding-top: 48px;
+        }
+
+        .footer-list {
+            display: flex;
+            margin-top: 28px;
+            margin-left: 40px;
+        }
+
+        .footer-item {
+            padding-right: 36px;
+        }
+
+        .footer-social-likns-list {
+            margin-top: 60px;
+        }
+
+    }
 
     @media screen and (min-width: 768px) {}
 
